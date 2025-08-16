@@ -5,6 +5,7 @@ services:
     image: ghcr.io/wg-easy/wg-easy:latest
     container_name: wg-easy
     restart: unless-stopped
+    network_mode: "host"
 
     # Нужны для поднятия интерфейса wg0
     cap_add:
