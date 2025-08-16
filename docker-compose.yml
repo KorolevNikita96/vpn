@@ -9,8 +9,8 @@ services:
       - NET_ADMIN
       - SYS_MODULE
     environment:
-      - WG_HOST=${WG_HOST}
-      - PASSWORD_HASH={PASSWORD_HASH}
+      - WG_HOST=194.85.251.72
+      - PASSWORD_HASH=$2b$08$4dqYG6o5pfwVsr9HNQ.fcuJXzSDB5ciP8uVlUPvTXGB.DtTduSHeq
       - WG_PORT=51820
       - WG_DEFAULT_ADDRESS=10.8.0.x
       - WG_DEFAULT_DNS=1.1.1.1,8.8.8.8
