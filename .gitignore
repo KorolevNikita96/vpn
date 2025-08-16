@@ -1,0 +1,18 @@
+# Игнорируем data (ключи и конфиги WireGuard)
+data/
+
+# Секреты окружения
+.env
+
+# Логи
+*.log
+
+# Кэш редакторов/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python/Node/npm (если когда-то подтянешь скрипты)
+__pycache__/
+node_modules/
